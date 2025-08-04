@@ -80,3 +80,7 @@ function getBookSummaries(catalog) {
 }
 
 console.log(getBookSummaries(library));
+
+function getBooksByAuthor(catalog, author) {
+  return catalog.filter((book) => book.author === author);
+}
