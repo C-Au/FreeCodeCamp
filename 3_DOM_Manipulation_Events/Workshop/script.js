@@ -1,0 +1,1 @@
+const storyContainer = document.querySelector('.story-container');
